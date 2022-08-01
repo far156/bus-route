@@ -5,30 +5,229 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>map</title>
+    <!-- link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+         <!-- font Awesome cdn file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- custom Css File Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- progress -->
 </head>
+
 <body>
+
     <div>
         <span>Travel From</span>
                 <input type="text" placeholder="Place You Want to Visit">
                 <span>To</span>
                 <input type="text" placeholder="Place You Want to Visit">
     </div>
-    <div class="part-2">
-        <section>
-            <fieldset>
-                Description loctaion  etc Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad in, distinctio veritatis officia possimus iusto doloribus ullam eligendi ratione aspernatur hic veniam iure dolorum quae, placeat voluptas vel quos. Alias!
-                
-            </fieldset>
+    <!-- <div  class="part-2"> -->
+        <section class="d-flex">
+            <div class="  w-100 location-add">
+                <div class="reco">
+                    <p>Recomend Option</p>
+                    <h3>Bus, Taxy</h3>
+                    <img class="cars" src="img/1.png" alt="">
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                </div>
+                <div class="cheap-op">
+                    <div class="reco">
+                      
+                        <h3>Train</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+
+                <!-- 1 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                      
+                        <h3>Taxi</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                       
+                        <h3>Drive</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                       
+                        <h3>Fly,Taxi</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Accomodation</p>
+                        <h3>Best Price Gurantee</h3>
+                       
+                        
+                        
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Car Hire</p>
+                        <h3>Compare best Rates</h3>
+                        
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Things To Do</p>
+                        <h3>View Attraction</h3>
+                        
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Dhaka NewYork Cheap Flight</p>
+                        <h3>Train</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Cheapest Option</p>
+                        <h3>Train</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 9 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Cheapest Option</p>
+                        <h3>Train</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+                <!-- 10 -->
+                <div class="cheap-op">
+                    <div class="reco">
+                        <p>Cheapest Option</p>
+                        <h3>Train</h3>
+                        <img class="cars" src="img/2.png" alt="">
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <p><span class="text-left">9h24m</span><span class="text-right">$40-$51</span></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <section class="header-two">
+                    <div class="loc-map">
+                        <div class="map">
+                            <iframe class="mapy" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28948.622360290225!2d88.75354314999998!3d24.912379199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1659190440802!5m2!1sen!2sbd" width="auto" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="text-b"><p><span>Distance:133km</span><span class="text-right">Duration:9h29m</span></p></div>
+                        </div>
+                    </div>
+                    <div class="text-area">
+                        <div class="heading">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+            </section>
+            </div>
         </section>
-        <br><br>
-        <section>
-           
-            
-            <fieldset>
-                <iframe src=
-                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58373.58061634781!2d90.2263512982592!3d23.87724758877729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755ebd3d6df9569%3A0x277b3819d4da3e91!2sSavar%20Union!5e0!3m2!1sen!2sbd!4v1658588268674!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">' width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </fieldset>
-        </section>
+        <!-- header section end -->
+        <!-- header section two start -->
+        <!-- <section class="header-two"> -->
+                <!-- <div class="loc-map"> -->
+                    <!-- <div class="map"> -->
+                        <!-- <iframe class="mapy" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28948.622360290225!2d88.75354314999998!3d24.912379199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1659190440802!5m2!1sen!2sbd" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <!-- <div class="text-b"><p><span>Distance:133km</span><span class="text-right">Duration:9h29m</span></p></div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="text-area"> -->
+                    <!-- <div class="heading"> -->
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                    <!-- </div> -->
+        <!-- </section> -->
     </div>
     <section>
         <fieldset>
